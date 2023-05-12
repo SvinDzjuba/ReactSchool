@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "HTML/CSS",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus, molestiae recusandae, totam explicabo maxime magnam veniam nihil deleniti reprehenderit sed, adipisci mollitia porro! Corporis, commodi suscipit! Ipsum, fugiat laboriosam."
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus, molestiae recusandae, totam explicabo maxime magnam veniam nihil deleniti reprehenderit sed, adipisci mollitia porro! Corporis, commodi suscipit! Ipsum, fugiat laboriosam."
+    },
+    {
+        "id": 3,
+        "name": "PHP",
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus, molestiae recusandae, totam explicabo maxime magnam veniam nihil deleniti reprehenderit sed, adipisci mollitia porro! Corporis, commodi suscipit! Ipsum, fugiat laboriosam."
+    }
+]
