@@ -15,7 +15,7 @@ export default function ProfessionList() {
     // Delete specialty from db
     const deleteProfession = async (id) => {
         if (window.confirm('Are you sure you want to delete this specialty?')) {
-            await axios.delete('http://localhost:5000/profession');
+            await axios.delete(`http://localhost:5000/profession/${id}`);
             getProfession();
         }
     };
@@ -58,7 +58,7 @@ export default function ProfessionList() {
                                         <Link to={`/profession/edit/${profession.id}`} className="me-1">
                                             <Button variant="primary" size="sm">Edit</Button>
                                         </Link>
-                                        <Button onclick={() => deleteProfession(profession.id)} variant="danger" size="sm" >
+                                        <Button onClick={() => deleteProfession(profession.id)} variant="danger" size="sm" >
                                             Delete
                                         </Button>
                                     </td>
