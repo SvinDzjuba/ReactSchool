@@ -19,6 +19,7 @@ function Header() {
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/specialty">Specialties</Nav.Link>
                             <Nav.Link href="/profession">Manage Professions</Nav.Link>
+                            <Nav.Link href="/department">Manage Departments</Nav.Link>
                         </Nav>
                     </NavbarCollapse>
                 </Container>

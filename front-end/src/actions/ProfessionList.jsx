@@ -42,7 +42,8 @@ export default function ProfessionList() {
                                 <th>Name</th>
                                 <th>Department</th>
                                 <th className="text-center">Actions</th>
-                            </tr> </thead>
+                            </tr>
+                        </thead>
                         <tbody>
                             {profession.map((profession, index) => (
                                 <tr key={profession.id}>
