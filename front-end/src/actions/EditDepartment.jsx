@@ -21,7 +21,7 @@ export default function EditDepartment() {
         await axios.put(`http://localhost:5000/department/${id}`, {
             name: name,
         });
-        navigate('/profession');
+        navigate('/department');
     }
     return (
         <Container className="mt-5">

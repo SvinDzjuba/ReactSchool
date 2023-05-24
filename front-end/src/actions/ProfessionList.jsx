@@ -24,7 +24,7 @@ export default function ProfessionList() {
     }, []);
     return (
         <Container
-            className="mt-1">
+            className="mt-5">
             <h2 className="text-center mt-3">Profession List Manage</h2>
             <Row>
                 <Col md={{ span: 9, offset: 2 }}>

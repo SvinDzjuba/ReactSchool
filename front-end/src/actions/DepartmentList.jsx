@@ -20,7 +20,7 @@ export default function DepartmentList() {
         getDepartments();
     }, []);
     return (
-        <Container className="mt-1">
+        <Container className="mt-5">
             <h2 className="text-center mt-3">Department List Manage</h2>
             <Row>
                 <Col md={{ span: 9, offset: 2 }}>

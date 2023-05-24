@@ -16,8 +16,8 @@ export default function CardBox() {
                     <h2 className='my-5 text-center'>Card</h2>
                     <Row className='g-4'>
                         {service.map(data => (
-                            <Col className='d-flex justify-content-center'>
-                                <Card style={{ width: 500 }} className='m-2' key={data.id}>
+                            <Col className='d-flex justify-content-center' key={data.id}>
+                                <Card style={{ width: 500 }} className='m-2'>
                                     <Card.Img 
                                         variant="top" 
                                         src={data.image} 
